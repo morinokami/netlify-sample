@@ -1,0 +1,25 @@
+{
+  "name": "netlify-sample",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "build": "netlify-lambda build src/",
+    "serve": "netlify-lambda serve src/"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/morinokami/netlify-sample.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/morinokami/netlify-sample/issues"
+  },
+  "homepage": "https://github.com/morinokami/netlify-sample#readme",
+  "dependencies": {
+    "moment": "^2.29.1",
+    "netlify-lambda": "^2.0.1"
+  }
+}
